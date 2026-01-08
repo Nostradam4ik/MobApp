@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartSpend</string>
+    <string name="widget_small_description">Affiche vos dépenses du mois</string>
+    <string name="widget_medium_description">Affiche un résumé complet de vos dépenses</string>
+</resources>

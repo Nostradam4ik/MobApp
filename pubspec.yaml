@@ -1,0 +1,96 @@
+name: smartspend
+description: Application mobile de suivi des dépenses intelligentes - Simple, intelligente et motivante.
+publish_to: 'none'
+version: 1.0.0+1
+
+# Auteur: Andrii Zhmuryk
+# LinkedIn: https://www.linkedin.com/in/andrii-zhmuryk-5a3a972b4/
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  fl_chart: ^0.66.0
+  shimmer: ^3.0.0
+  lottie: ^3.0.0
+
+  # State Management
+  provider: ^6.1.1
+
+  # Backend & Database
+  supabase_flutter: ^2.3.0
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path: ^1.8.3
+
+  # Security
+  flutter_secure_storage: ^9.2.2
+  local_auth: ^2.2.0
+  crypto: ^3.0.3
+  encrypt: ^5.0.3
+
+  # Utilities
+  intl: ^0.20.2
+  uuid: ^4.2.1
+  equatable: ^2.0.5
+  collection: ^1.18.0
+  http: ^1.1.0
+
+  # Export (CSV/PDF)
+  csv: ^6.0.0
+  pdf: ^3.10.8
+  printing: ^5.12.0
+  universal_html: ^2.2.4
+
+  # Notifications
+  flutter_local_notifications: ^16.3.0
+  timezone: ^0.9.2
+  flutter_timezone: ^1.0.8
+
+  # Forms & Validation
+  reactive_forms: ^17.0.1
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # URL Launcher
+  url_launcher: ^6.2.2
+
+  # In-App Purchases
+  purchases_flutter: ^6.30.2
+
+  # Ads
+  google_mobile_ads: ^5.2.0
+
+  # Home Screen Widget
+  home_widget: ^0.6.0
+  workmanager: ^0.5.2
+
+  # OCR & Camera
+  google_mlkit_text_recognition: ^0.11.0
+  camera: ^0.10.5+9
+  image_picker: ^1.0.7
+  permission_handler: ^11.3.0
+
+  # Crash Reporting (Sentry - gratuit)
+  sentry_flutter: ^8.1.0
+  flutter_markdown: ^0.7.7+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
